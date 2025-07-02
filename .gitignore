@@ -137,3 +137,20 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# ─── CUSTOM: Cypress + VSCode + TypeScript ─────────────────────────────────────
+# Cypress artifacts
+cypress/screenshots/
+cypress/videos/
+.cache/
+.cache/Cypress
+
+# VSCode config
+.vscode/
+
+# TypeScript build outputs
+dist/
+build/
+out/
+**/*.js
+**/*.js.map

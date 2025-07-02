@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./cypress",
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@support/*": ["support/*"],
+      "@fixtures/*": ["fixtures/*"]
+    }
+  }
+}
